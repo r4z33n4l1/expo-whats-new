@@ -1,0 +1,40 @@
+{
+  "name": "@r4z33n4l1/whats-new-sheet-example",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/log-box": "55.0.12",
+    "@expo/metro-runtime": "~55.0.11",
+    "@r4z33n4l1/whats-new-sheet": "workspace:*",
+    "expo": "~55.0.23",
+    "expo-constants": "~55.0.16",
+    "expo-image": "~55.0.10",
+    "expo-linking": "~55.0.15",
+    "expo-router": "~55.0.14",
+    "expo-status-bar": "~55.0.6",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.6",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-reanimated": "~4.2.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.23.0",
+    "react-native-web": "~0.21.0",
+    "react-native-worklets": "^0.8.3"
+  },
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@react-native/metro-config": "0.83.6",
+    "@types/react": "19.2.14",
+    "react-native-builder-bob": "^0.41.0",
+    "react-native-monorepo-config": "^0.3.3",
+    "typescript": "^6.0.3"
+  }
+}

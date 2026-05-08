@@ -1,0 +1,12 @@
+node_modules/
+lib/
+.expo/
+dist/
+*.tgz
+.DS_Store
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+*.log
