@@ -1,7 +1,7 @@
 {
   "name": "@r4z33n4l1/whats-new-sheet",
   "version": "0.1.1",
-  "description": "Lightweight Expo and React Native What's New sheet inspired by Notelet.",
+  "description": "Lightweight Expo and React Native What's New sheet.",
   "main": "./lib/module/index.js",
   "module": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -16,6 +16,7 @@
   "files": [
     "src",
     "lib",
+    "docs/assets",
     "README.md",
     "LICENSE",
     "CHANGELOG.md",

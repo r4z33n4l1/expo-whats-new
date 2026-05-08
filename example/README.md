@@ -19,6 +19,13 @@ corepack yarn example start
 
 Expo Go should be enough for the example because the package only relies on `expo-image` and React Native primitives.
 
+## Screenshots
+
+The root README includes cropped simulator screenshots from this example's sheet UI:
+
+- [`docs/assets/sheet-list.jpg`](../docs/assets/sheet-list.jpg)
+- [`docs/assets/sheet-image.jpg`](../docs/assets/sheet-image.jpg)
+
 ## Files To Read First
 
 - [`example/app/index.tsx`](./app/index.tsx): home screen with preview and reset buttons.

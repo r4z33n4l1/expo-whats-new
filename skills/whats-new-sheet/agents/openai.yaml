@@ -1,0 +1,4 @@
+interface:
+  display_name: "Whats New Sheet"
+  short_description: "Build and integrate Expo whats-new sheets"
+  default_prompt: "Use $whats-new-sheet to add a polished release-notes sheet to an Expo app."

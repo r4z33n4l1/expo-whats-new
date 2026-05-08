@@ -2,7 +2,7 @@
 
 Lightweight, data-first "What's New" sheets for Expo and React Native apps.
 
-`@r4z33n4l1/whats-new-sheet` gives you a polished release-notes surface without forcing a backend, admin dashboard, storage package, or navigation pattern into your app. It is inspired by [Notelet](https://github.com/mykolaharmash/notelet): describe the update as data, present it in a sheet, and mark the version as seen.
+`@r4z33n4l1/whats-new-sheet` gives you a polished release-notes surface without forcing a backend, admin dashboard, storage package, or navigation pattern into your app. Describe the update as data, present it in a sheet, and mark the version as seen.
 
 ## Highlights
 
@@ -12,6 +12,14 @@ Lightweight, data-first "What's New" sheets for Expo and React Native apps.
 - **Bring your own routing**: works with Expo Router form sheets, React Navigation modals, or any host screen.
 - **Expo-friendly visuals**: image pages and SF Symbol row icons are rendered through `expo-image`.
 - **No native surprise**: no video module, no config plugin, no autolinking beyond `expo-image`.
+
+## Screenshots
+
+These are cropped simulator screenshots from the example app, focused only on the sheet UI.
+
+| List page | Image page |
+|---|---|
+| ![List page example](./docs/assets/sheet-list.jpg) | ![Image page example](./docs/assets/sheet-image.jpg) |
 
 ## Install
 
@@ -281,6 +289,8 @@ The repo includes an Expo Router playground in [`example/`](./example). It demon
 - List, image, and custom pages.
 - Manual preview and reset controls.
 
+The screenshots above are stored in [`docs/assets`](./docs/assets) and are cropped to the sheet surface only.
+
 Run it with:
 
 ```sh
@@ -324,7 +334,7 @@ npm publish --access public
 
 ## Acknowledgements
 
-This package is inspired by [Notelet](https://github.com/mykolaharmash/notelet) by Mykola Harmash. Notelet's small, versioned release-note model helped shape the data-first approach here, adapted for Expo and React Native.
+Thanks to [Notelet](https://github.com/mykolaharmash/notelet) by Mykola Harmash for inspiration around small, versioned release-note surfaces.
 
 ## License
 

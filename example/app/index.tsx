@@ -36,7 +36,7 @@ export default function Home() {
     >
       <StatusBar style="dark" />
       <Text style={styles.eyebrow}>Standalone Expo Playground</Text>
-      <Text style={styles.title}>A tiny Notelet-style sheet for RN apps.</Text>
+      <Text style={styles.title}>A tiny release-notes sheet for RN apps.</Text>
       <Text style={styles.body}>
         The package owns rendering and seen-state helpers. Your app owns data,
         routing, and storage.
